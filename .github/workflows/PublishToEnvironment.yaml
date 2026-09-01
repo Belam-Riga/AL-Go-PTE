@@ -1,4 +1,5 @@
-name: ' Publish To Environment'
+name: 'Publish To Environment'
+run-name: 'Publish to ${{ github.event.inputs.environmentName }}'
 
 on:
   workflow_dispatch:
